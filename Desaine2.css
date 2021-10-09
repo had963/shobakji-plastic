@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+    border: 0%;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    border-bottom: 3px solid red;
+}
+body{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.section1{
+    width:100% ;
+    height: 100%;
+  
+   
+    text-align: center;
+    line-height: 150px;
+
+}
+header h1{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 70px;
+    word-spacing: 200px;
+    color: cornsilk;
+    animation-name:color ;
+    animation-duration: 4s;
+    animation-delay: 0ms;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    0%{
+        color: chartreuse;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: orange;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: aqua;
+    }
+}
+nav{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 3px solid red;
+    background-color: blanchedalmond;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 7%;
+    margin-right: 10%;
+    line-height: 100px;
+}
+.home{
+    width: 20%;
+   
+}
+.products{
+    width: 10%;
+  
+}
+.contact{
+    width: 10%;
+   
+}
+li img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5%;
+}
+li:hover{
+    background-color: red;
+}
+nav a:hover{
+    color: wheat;
+}
+main{
+    width: 40%;
+    height: 400px;
+    background-color: blanchedalmond;
+    text-align: center;
+   float: right;
+    margin-top: 5%;
+    line-height: 130px;
+    border: 3px dotted red;
+}
+p{
+    font-size: 30px;
+    font-family: 'Scheherazade New', serif;
+}
+main a:hover{
+    color: red;
+}
+aside{
+    width: 40%;
+    height: 400px;
+    background-color: blanchedalmond;
+    text-align: center;
+   float: left;
+    margin-top: 5%;
+    line-height: 130px;
+    border: 3px dotted red;
+}
+aside,main h1{
+    font-size: 35px;
+}
+@media only screen and (min-width:1230px) and (max-width:1400px) {
+    aside,main{
+        font-size: 30px;
+    }
+    header h1{
+        font-size:65px
+    }
+}
+@media only screen and (min-width:813px) and (max-width:1229px) {
+    main h1{
+        font-size: 27px;
+    }
+    header h1{
+        font-size:60px;
+        word-spacing: 150px;
+    }
+li{
+    font-size: 26px;
+    margin-left: 5%;
+    margin-right: 7%;
+}
+.home{
+    width:24%;
+
+}
+.products,.contact{
+    width:14% ;
+}
+p{
+    font-size: 25px;
+}
+aside h1{
+    font-size: 27px;
+}
+}
+@media only screen and (min-width:629px) and (max-width:812px) {
+    main h1{
+        font-size: 22px;
+    }
+    header h1{
+        font-size:50px;
+        word-spacing: 100px;
+    }
+li{
+    font-size: 23px;
+    margin-left: 5%;
+    margin-right: 7%;
+}
+.home{
+    width:28%;
+
+}
+.products,.contact{
+    width:17% ;
+}
+p{
+    font-size: 20px;
+    font-weight: 900;
+}
+li img{
+    width: 25px;
+    height: 25px;
+}
+aside h1{
+ font-size: 22px;
+}
+}
+@media only screen and (min-width:460px) and (max-width:628px) {
+    main h1{
+        font-size: 20px;
+    }
+    header h1{
+        font-size:45px;
+        word-spacing: 80px;
+    }
+li{
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+.home{
+    width:33%;
+
+}
+.products,.contact{
+    width:20% ;
+}
+p{
+    font-size: 16px;
+    font-weight: 900;
+}
+li img{
+    width: 22px;
+    height: 22px;
+}
+aside h1{
+    font-size: 20px;
+}
+}
+@media only screen and (min-width:294px) and (max-width:459px) {
+    aside,main h1{
+        font-size: 15px;
+    }
+    header h1{
+        font-size:35px;
+        word-spacing: 50px;
+    }
+li{
+    font-size: 15px;
+    margin-left: 9%;
+    margin-right: -6%;
+}
+.home{
+    width:44%;
+    margin-left: -11%;
+
+}
+.products,.contact{
+    width:30% ;
+}
+p{
+    font-size: 12px;
+    font-weight: 900;
+}
+li img{
+    width: 20px;
+    height: 20px;
+}
+.section1{
+    line-height: 180px;
+}
+aside , main{
+    line-height: 90px;
+}
+aside h1{
+    font-size: 15px;
+}
+}

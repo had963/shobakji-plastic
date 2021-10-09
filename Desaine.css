@@ -2,10 +2,7 @@
     margin: 0%;
     border: 0%;
 }
-#conatin{
-    width: 100%;
-    height: 100%;
-}
+
 header{
     width: 100%;
     height: 200px;
@@ -24,6 +21,29 @@ header h1{
     font-size: 70px;
     word-spacing: 200px;
     color: cornsilk;
+    animation-name:color ;
+    animation-duration: 4s;
+    animation-delay: 0ms;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+ visibility: none;
+}
+@keyframes color{
+    0%{
+        color: chartreuse;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: orange;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: aqua;
+    }
 }
 nav{
     width: 100%;
@@ -71,6 +91,7 @@ main{
     width: 100%;
     height: 660px;
 background-image: url(img/img5.jpg);
+background-color: black;
 background-size: cover;
 } 
 main img{
@@ -99,7 +120,7 @@ article p{
     font-size: 30px;
     color:darkblue;
 }
-@media only screen and (max-width: 1316px) and (min-width:1230px){
+@media only screen and (max-width: 1316px) and (min-width:1230px) {
     p{
         font-size: 25px;
         font-weight: bold;
@@ -203,6 +224,9 @@ font-size: 40px;
             background-size: 115%;
             background-repeat: no-repeat;
         }
+        main{
+            height: 838px;
+        }
          }
          @media only screen and (max-width: 690px) and (min-width:525px) {
             header h1{
@@ -240,6 +264,9 @@ font-size: 40px;
             .p4{
                 margin-top: -8%;
             }
+            main{
+            height: 785px;
+        }
              }
              @media only screen and (max-width: 524px) and (min-width:415px) {
                 header h1{
@@ -286,14 +313,17 @@ font-size: 40px;
                 main h2{
                     margin-top: -10%;
                 }
+                main{
+                    height: 587px;
+                }
                  }
-                 @media only screen and (max-width: 414px) and (min-width:292px) {
+                 @media only screen and (max-width: 414px) and (min-width:294px) {
                     header h1{
                         font-size: 25px;
                         word-spacing: 48px;
                     }   
                         li{
-                            font-size: 10px;
+                            font-size: 13px;
                             font-weight: 900;
                             margin-right: 3%;
                             margin-left: 2%;
@@ -313,42 +343,46 @@ font-size: 40px;
                      font-weight: bold;
                     }
                     .home{
-                        width: 30%;
+                        width: 37%;
+                       
                     }
                     .products{
-                        width: 20%;
+                        width: 22%;
                     } 
                    .contact{
-                       width: 18%;
+                       width: 22%;
                    }
                     main{
                        background-size: contain;
                         background-repeat: no-repeat;
                     }
                     .loction{
-                        margin-top: -14%;
+                        margin-top: -15%;
                     }
                     main p{
                         margin-top: -13%;
                     
                     }
                     main h2{
-                        margin-top: -10%;
+                        margin-top: -11%;
                     }
                     .p3{
                         margin-top: -21%;
                     }
                     .p4{
-                        margin-top:-23% ;
+                        margin-top:-25% ;
                     }
                     .p2{
-                        margin-top: -20%;
+                        margin-top: -21%;
                     }
                     .p1{
-                        margin-top: -20%;
+                        margin-top: -21%;
                     }
                     header{
                         height: 130px;
+                    }
+                    main{
+                        height: 438px;
                     }
                 }
      

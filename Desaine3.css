@@ -1,0 +1,305 @@
+*{
+    margin: 0%;
+    border: 0%;
+}
+body{
+    background: linear-gradient( to right ,  #003973, #e5e5be);
+  
+    
+}
+header{
+    width: 100%;
+    height: 200px;
+    border-bottom: 3px solid red;
+}
+.section1{
+    width:100% ;
+    height: 100%;
+    text-align: center;
+    line-height: 150px;
+}
+header h1{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 70px;
+    word-spacing: 200px;
+    color: cornsilk;
+    animation-name:color ;
+    animation-duration: 4s;
+    animation-delay: 0ms;
+  animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    0%{
+        color: chartreuse;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: orange;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: aqua;
+    }
+}
+marquee{
+    height: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-top: 3px solid rgb(0, 0, 0);
+    background-color: #e5e5be;
+    margin-top: -0.3%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 7%;
+    margin-right: 10%;
+    line-height: 100px;
+}
+.home{
+    width: 20%;
+   
+}
+.products{
+    width: 10%;
+  
+}
+.contact{
+    width: 10%;
+   
+}
+li img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5%;
+}
+li:hover{
+    background-color: red;
+}
+a:hover{
+    color: wheat;
+}
+main div{
+    width:30%;
+    height: 450px;
+    margin: 1%;
+   margin-top: 1%;
+   margin-bottom: 2%;
+    text-align: center;
+    float: right;
+    margin-right: 2%;
+}
+main div img{
+    width: 100%;
+    height: 450px;
+}
+p{
+    font-size: 30px;
+    background-color: blanchedalmond;
+  -webkit-text-stroke: 1px #0d14efe6;
+}
+
+main section{
+    float: left;
+    background-color:blanchedalmond ;
+    width: 30%;
+    height: 450px;
+    margin: 1.5%; 
+}
+main section p{
+    margin-top: 3%;
+    margin-right: 1%;
+    word-spacing: 10px;
+    font-size: 27px;
+}
+
+@media only screen and (max-width:1230px) and (min-width:1065px) {
+    .contact,.products{
+        width: 14%;
+    }
+    main div{
+       margin-bottom: 3%;
+    }
+ 
+    
+    main section p{
+        font-size: 25px;
+margin-top: 7%;
+
+    }
+    
+}
+@media only screen and (max-width:1064px) and (min-width:703px) {
+    .contact,.products{
+        width: 15%;
+    }
+    .home{
+        width: 26%;
+    }
+    main div{
+       margin-bottom: 0%;
+       margin-right: 2%;
+    }
+    main div img{
+        height: 400px;
+    }
+    main p{
+        font-size: 25px;
+    }
+    li img {
+        width:25px;
+        height: 25px;
+    }
+    li{
+        font-size: 25px;
+        margin-left: 5%;
+        margin-right: 7%;
+    }
+    header h1{
+        font-size: 60px;
+        word-spacing: 120px;
+    }
+    marquee{
+        font-size: 27px;
+    }
+    main section  {
+        height: 400px;
+    }
+    main section p{
+        font-size: 18px;
+margin-top: 10%;
+
+    }
+}
+@media only screen and (max-width:702px) and (min-width:498px) {
+    header h1{
+        font-size: 50px;
+        word-spacing: 90px;
+    }
+    .section1{
+        line-height: 180px;
+    }
+    marquee{
+        font-size: 22px;
+        height: 26px;
+    }
+    nav{
+        height: 85px;
+    }
+    li{
+        font-size: 23px;
+        margin-left: 3%;
+        margin-right: 5%;
+    }
+    li img {
+        width:22px;
+        height: 22px;
+    }
+    .contact,.products{
+        width: 20%;
+    }
+    .home{
+        width: 34%;
+    }
+    main div{
+       margin-bottom: 2%;
+    }
+    main div img{
+        height: 350px;
+    }
+    main p{
+        font-size: 20px;
+        height: 30px;
+    }
+    main div{
+        height: 375px;
+        margin-right: 2%;
+    }
+    main section{
+        height: 350px;
+    }
+    
+    main section p{
+        font-size: 13px;
+
+margin-top: 5%;
+    }
+}
+@media only screen and (max-width:497px) and (min-width:294px) {
+   header{
+       height: 166px;
+   }
+    header h1{
+        font-size: 35px;
+        word-spacing: 25px;
+    }
+    .section1{
+        line-height: 180px;
+    }
+    marquee{
+        font-size: 17px;
+        height: 21px;
+    }
+    nav{
+        height: 75px;
+    }
+    li{
+        font-size: 14px;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-weight: bold;
+    }
+    li img {
+        width:20px;
+        height: 20px;
+    }
+    .contact,.products{
+        width: 25%;
+    }
+    .home{
+        width: 44%;
+        margin-left: -8%;
+    }
+    main div{
+       margin-bottom: 2%;
+    }
+    main div img{
+        height: 240px;
+    }
+    main p{
+        font-size: 11px;
+        height: 25px;
+    }
+    main div{
+        height: 270px;
+        margin-right: 2%;
+    }
+    main section{
+        height: 240px;
+    }
+    
+    main section p{
+        font-size: 10px;
+margin-top: 3%;
+
+    }
+}
+
+
